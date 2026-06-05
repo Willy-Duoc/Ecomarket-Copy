@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
-import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "sucursal")
@@ -34,6 +33,4 @@ public class Sucursal {
     @Column
     private Boolean activa;
 
-    @Column
-    private LocalDateTime fechaInauguracion;
 }

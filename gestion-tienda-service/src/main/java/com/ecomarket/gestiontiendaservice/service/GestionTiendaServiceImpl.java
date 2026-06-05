@@ -35,7 +35,6 @@ public class GestionTiendaServiceImpl implements GestionTiendaService {
         sucursal.setTelefono(telefono);
         sucursal.setGarantiaCargold(garanteId);
         sucursal.setActiva(true);
-        sucursal.setFechaInauguracion(LocalDateTime.now());
         return sucursalRepository.save(sucursal);
     }
 
