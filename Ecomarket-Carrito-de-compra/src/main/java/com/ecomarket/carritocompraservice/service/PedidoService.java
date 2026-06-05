@@ -54,14 +54,16 @@ public class PedidoService {
         return pedidoRepository.save(pedido);
     }
 
-    public Pedido actualizarEstado(Long pedidoId, Long nuevoEstadoId) { //ESTADO NUEVO ESTADO FALTA
+    public Pedido actualizarEstado(Long pedidoId, Long nuevoEstadoId) {
         Pedido pedido = pedidoRepository.findById(pedidoId)
                 .orElseThrow(() -> new RuntimeException("Pedido no encontrado: " + pedidoId));
-        EstadoPedido estado = estadoPedidoRepository.findById(nuevoEstadoId)
+        EstadoPedido nuevoEstado = estadoPedidoRepository.findById(nuevoEstadoId)
                 .orElseThrow(() -> new RuntimeException("Estado no encontrado: " + nuevoEstadoId));
-        pedido.setEstado(estado);
+        pedido.setEstado(pedido.getEstado());
+        pedido.setEstado(nuevoEstado);
         return pedidoRepository.save(pedido);
     }
+
 
     public List<Pedido> obtenerHistorialCliente(Long clienteId) {
         return pedidoRepository.findByClienteId(clienteId);

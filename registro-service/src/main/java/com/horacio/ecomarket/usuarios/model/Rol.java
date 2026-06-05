@@ -17,4 +17,6 @@ public class Rol {
 
     @Column(nullable = false, unique = true)
     private String nombre; // Ej: ADMIN, CLIENTE, VENDEDOR
+
+    private String descripcion;
 }

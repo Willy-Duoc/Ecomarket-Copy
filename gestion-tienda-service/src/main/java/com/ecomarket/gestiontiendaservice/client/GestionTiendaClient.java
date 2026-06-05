@@ -1,0 +1,28 @@
+package com.ecomarket.gestiontiendaservice.client;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+@Service
+public class GestionTiendaClient {
+
+    @Autowired
+    private RestTemplate restTemplate;
+
+    @Value("${microservicio.gestiontienda.url}")
+    private String baseUrl;
+
+    public void notificarStockBajo(Long sucursalId, Long productoId, Integer stockActual) {
+        String url = baseUrl + "/api/gestion-tienda/alertas/stock-bajo";
+        Map<String, Object> body = Map.of(
+            "sucursalId", sucursalId,
+            "productoId", productoId,
+            "stockActual", stockActual
+        );
+        restTemplate.postForEntity(url, body, Void.class);
+    }
+}
