@@ -1,0 +1,109 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "clienteId": 1,
+            "correo": "juan.perez@ecomarket.com",
+            "nombre": "Juan",
+            "apellido": "Pérez"
+        },
+        {
+            "id": 2,
+            "clienteId": 2,
+            "correo": "maria.garcia@ecomarket.com",
+            "nombre": "María",
+            "apellido": "García"
+        },
+        {
+            "id": 3,
+            "clienteId": 3,
+            "correo": "carlos.lopez@ecomarket.com",
+            "nombre": "Carlos",
+            "apellido": "López"
+        },
+        {
+            "id": 4,
+            "clienteId": 4,
+            "correo": "ana.martinez@ecomarket.com",
+            "nombre": "Ana",
+            "apellido": "Martínez"
+        },
+        {
+            "id": 5,
+            "clienteId": 5,
+            "correo": "luis.rodriguez@ecomarket.com",
+            "nombre": "Luis",
+            "apellido": "Rodríguez"
+        },
+        {
+            "id": 6,
+            "clienteId": 6,
+            "correo": "sofia.hernandez@ecomarket.com",
+            "nombre": "Sofía",
+            "apellido": "Hernández"
+        },
+        {
+            "id": 7,
+            "clienteId": 7,
+            "correo": "pedro.gonzalez@ecomarket.com",
+            "nombre": "Pedro",
+            "apellido": "González"
+        },
+        {
+            "id": 8,
+            "clienteId": 8,
+            "correo": "laura.sanchez@ecomarket.com",
+            "nombre": "Laura",
+            "apellido": "Sánchez"
+        },
+        {
+            "id": 9,
+            "clienteId": 9,
+            "correo": "miguel.ramirez@ecomarket.com",
+            "nombre": "Miguel",
+            "apellido": "Ramírez"
+        },
+        {
+            "id": 10,
+            "clienteId": 10,
+            "correo": "elena.torres@ecomarket.com",
+            "nombre": "Elena",
+            "apellido": "Torres"
+        }
+    ],
+    "pedidos": [
+        { "id": 1, "pedidoId": 1, "clienteId": 1, "subtotal": 120.50, "total": 135.00, "estado": 1, "fechaCreacion": 1716652800000 },
+        { "id": 2, "pedidoId": 2, "clienteId": 2, "subtotal": 450.00, "total": 480.50, "estado": 2, "fechaCreacion": 1716566400000 },
+        { "id": 3, "pedidoId": 3, "clienteId": 3, "subtotal": 35.90, "total": 40.00, "estado": 3, "fechaCreacion": 1716480000000 },
+        { "id": 4, "pedidoId": 4, "clienteId": 4, "subtotal": 890.00, "total": 910.00, "estado": 1, "fechaCreacion": 1716393600000 },
+        { "id": 5, "pedidoId": 5, "clienteId": 5, "subtotal": 55.00, "total": 65.50, "estado": 4, "fechaCreacion": 1716307200000 },
+        { "id": 6, "pedidoId": 6, "clienteId": 6, "subtotal": 210.00, "total": 225.00, "estado": 2, "fechaCreacion": 1716220800000 },
+        { "id": 7, "pedidoId": 7, "clienteId": 7, "subtotal": 1100.50, "total": 1150.00, "estado": 1, "fechaCreacion": 1716134400000 },
+        { "id": 8, "pedidoId": 8, "clienteId": 8, "subtotal": 15.00, "total": 20.00, "estado": 5, "fechaCreacion": 1716048000000 },
+        { "id": 9, "pedidoId": 9, "clienteId": 9, "subtotal": 430.20, "total": 450.00, "estado": 2, "fechaCreacion": 1715961600000 },
+        { "id": 10, "pedidoId": 10, "clienteId": 10, "subtotal": 99.99, "total": 115.00, "estado": 1, "fechaCreacion": 1715875200000 }
+    ],
+    "transportistas": [
+        {
+            "id": 1,
+            "usuarioId": 101,
+            "nombre": "Carlos",
+            "apellido": "Mendoza",
+            "correo": "carlos.mendoza@ecomarket.com"
+        },
+        {
+            "id": 2,
+            "usuarioId": 102,
+            "nombre": "Ana",
+            "apellido": "Vega",
+            "correo": "ana.vega@ecomarket.com"
+        },
+        {
+            "id": 3,
+            "usuarioId": 103,
+            "nombre": "Luis",
+            "apellido": "Torres",
+            "correo": "luis.torres@ecomarket.com"
+        }
+    ]
+}

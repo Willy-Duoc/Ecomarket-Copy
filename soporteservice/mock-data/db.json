@@ -1,0 +1,606 @@
+{
+    "clientes": [
+        {
+            "id": 1,
+            "clienteId": 1,
+            "correo": "juan.perez@ecomarket.com",
+            "nombre": "Juan",
+            "apellido": "Pérez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 2,
+            "clienteId": 2,
+            "correo": "maria.garcia@ecomarket.com",
+            "nombre": "María",
+            "apellido": "García",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 3,
+            "clienteId": 3,
+            "correo": "carlos.lopez@ecomarket.com",
+            "nombre": "Carlos",
+            "apellido": "López",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 4,
+            "clienteId": 4,
+            "correo": "ana.martinez@ecomarket.com",
+            "nombre": "Ana",
+            "apellido": "Martínez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 5,
+            "clienteId": 5,
+            "correo": "luis.rodriguez@ecomarket.com",
+            "nombre": "Luis",
+            "apellido": "Rodríguez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 6,
+            "clienteId": 6,
+            "correo": "sofia.hernandez@ecomarket.com",
+            "nombre": "Sofía",
+            "apellido": "Hernández",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 7,
+            "clienteId": 7,
+            "correo": "pedro.gonzalez@ecomarket.com",
+            "nombre": "Pedro",
+            "apellido": "González",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 8,
+            "clienteId": 8,
+            "correo": "laura.sanchez@ecomarket.com",
+            "nombre": "Laura",
+            "apellido": "Sánchez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 9,
+            "clienteId": 9,
+            "correo": "miguel.ramirez@ecomarket.com",
+            "nombre": "Miguel",
+            "apellido": "Ramírez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 10,
+            "clienteId": 10,
+            "correo": "elena.torres@ecomarket.com",
+            "nombre": "Elena",
+            "apellido": "Torres",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 11,
+            "clienteId": 11,
+            "correo": "jorge.flores@ecomarket.com",
+            "nombre": "Jorge",
+            "apellido": "Flores",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 12,
+            "clienteId": 12,
+            "correo": "isabel.diaz@ecomarket.com",
+            "nombre": "Isabel",
+            "apellido": "Díaz",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 13,
+            "clienteId": 13,
+            "correo": "roberto.moreno@ecomarket.com",
+            "nombre": "Roberto",
+            "apellido": "Moreno",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 14,
+            "clienteId": 14,
+            "correo": "patricia.jimenez@ecomarket.com",
+            "nombre": "Patricia",
+            "apellido": "Jiménez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 15,
+            "clienteId": 15,
+            "correo": "fernando.ruiz@ecomarket.com",
+            "nombre": "Fernando",
+            "apellido": "Ruiz",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 16,
+            "clienteId": 16,
+            "correo": "claudia.alvarez@ecomarket.com",
+            "nombre": "Claudia",
+            "apellido": "Álvarez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 17,
+            "clienteId": 17,
+            "correo": "andres.romero@ecomarket.com",
+            "nombre": "Andrés",
+            "apellido": "Romero",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 18,
+            "clienteId": 18,
+            "correo": "monica.vargas@ecomarket.com",
+            "nombre": "Mónica",
+            "apellido": "Vargas",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 19,
+            "clienteId": 19,
+            "correo": "hector.castro@ecomarket.com",
+            "nombre": "Héctor",
+            "apellido": "Castro",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 20,
+            "clienteId": 20,
+            "correo": "diana.ortiz@ecomarket.com",
+            "nombre": "Diana",
+            "apellido": "Ortiz",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 21,
+            "clienteId": 21,
+            "correo": "gabriel.gutierrez@ecomarket.com",
+            "nombre": "Gabriel",
+            "apellido": "Gutiérrez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 22,
+            "clienteId": 22,
+            "correo": "valentina.chavez@ecomarket.com",
+            "nombre": "Valentina",
+            "apellido": "Chávez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 23,
+            "clienteId": 23,
+            "correo": "oscar.ramos@ecomarket.com",
+            "nombre": "Óscar",
+            "apellido": "Ramos",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 24,
+            "clienteId": 24,
+            "correo": "natalia.reyes@ecomarket.com",
+            "nombre": "Natalia",
+            "apellido": "Reyes",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 25,
+            "clienteId": 25,
+            "correo": "alejandro.cruz@ecomarket.com",
+            "nombre": "Alejandro",
+            "apellido": "Cruz",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 26,
+            "clienteId": 26,
+            "correo": "camila.mendoza@ecomarket.com",
+            "nombre": "Camila",
+            "apellido": "Mendoza",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 27,
+            "clienteId": 27,
+            "correo": "ricardo.silva@ecomarket.com",
+            "nombre": "Ricardo",
+            "apellido": "Silva",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 28,
+            "clienteId": 28,
+            "correo": "adriana.aguilar@ecomarket.com",
+            "nombre": "Adriana",
+            "apellido": "Aguilar",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 29,
+            "clienteId": 29,
+            "correo": "sergio.medina@ecomarket.com",
+            "nombre": "Sergio",
+            "apellido": "Medina",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 30,
+            "clienteId": 30,
+            "correo": "veronica.rojas@ecomarket.com",
+            "nombre": "Verónica",
+            "apellido": "Rojas",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 31,
+            "clienteId": 31,
+            "correo": "pablo.herrera@ecomarket.com",
+            "nombre": "Pablo",
+            "apellido": "Herrera",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 32,
+            "clienteId": 32,
+            "correo": "daniela.peña@ecomarket.com",
+            "nombre": "Daniela",
+            "apellido": "Peña",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 33,
+            "clienteId": 33,
+            "correo": "francisco.vega@ecomarket.com",
+            "nombre": "Francisco",
+            "apellido": "Vega",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 34,
+            "clienteId": 34,
+            "correo": "carolina.soto@ecomarket.com",
+            "nombre": "Carolina",
+            "apellido": "Soto",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 35,
+            "clienteId": 35,
+            "correo": "manuel.rios@ecomarket.com",
+            "nombre": "Manuel",
+            "apellido": "Ríos",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 36,
+            "clienteId": 36,
+            "correo": "alejandra.parra@ecomarket.com",
+            "nombre": "Alejandra",
+            "apellido": "Parra",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 37,
+            "clienteId": 37,
+            "correo": "enrique.mora@ecomarket.com",
+            "nombre": "Enrique",
+            "apellido": "Mora",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 38,
+            "clienteId": 38,
+            "correo": "beatriz.guerrero@ecomarket.com",
+            "nombre": "Beatriz",
+            "apellido": "Guerrero",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 39,
+            "clienteId": 39,
+            "correo": "raul.nunez@ecomarket.com",
+            "nombre": "Raúl",
+            "apellido": "Núñez",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 40,
+            "clienteId": 40,
+            "correo": "silvia.campos@ecomarket.com",
+            "nombre": "Silvia",
+            "apellido": "Campos",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 41,
+            "clienteId": 41,
+            "correo": "arturo.espinoza@ecomarket.com",
+            "nombre": "Arturo",
+            "apellido": "Espinoza",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 42,
+            "clienteId": 42,
+            "correo": "lorena.contreras@ecomarket.com",
+            "nombre": "Lorena",
+            "apellido": "Contreras",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 43,
+            "clienteId": 43,
+            "correo": "ernesto.delgado@ecomarket.com",
+            "nombre": "Ernesto",
+            "apellido": "Delgado",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 44,
+            "clienteId": 44,
+            "correo": "rosa.ibarra@ecomarket.com",
+            "nombre": "Rosa",
+            "apellido": "Ibarra",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 45,
+            "clienteId": 45,
+            "correo": "victor.lara@ecomarket.com",
+            "nombre": "Víctor",
+            "apellido": "Lara",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 46,
+            "clienteId": 46,
+            "correo": "alicia.fuentes@ecomarket.com",
+            "nombre": "Alicia",
+            "apellido": "Fuentes",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 47,
+            "clienteId": 47,
+            "correo": "hugo.sandoval@ecomarket.com",
+            "nombre": "Hugo",
+            "apellido": "Sandoval",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 48,
+            "clienteId": 48,
+            "correo": "martha.acosta@ecomarket.com",
+            "nombre": "Martha",
+            "apellido": "Acosta",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 49,
+            "clienteId": 49,
+            "correo": "cesar.miranda@ecomarket.com",
+            "nombre": "César",
+            "apellido": "Miranda",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        },
+        {
+            "id": 50,
+            "clienteId": 50,
+            "correo": "gloria.espinosa@ecomarket.com",
+            "nombre": "Gloria",
+            "apellido": "Espinosa",
+            "rolUsuario": {
+                "idRol": 2,
+                "nombre": "CLIENTE"
+            }
+        }
+    ],
+    "pedidos": [
+    { "id": 1, "pedidoId": 1, "clienteId": 15, "subtotal": 120.50, "total": 135.00, "estado": 1, "fechaCreacion": 1716652800000 },
+    { "id": 2, "pedidoId": 2, "clienteId": 8, "subtotal": 450.00, "total": 480.50, "estado": 2, "fechaCreacion": 1716566400000 },
+    { "id": 3, "pedidoId": 3, "clienteId": 42, "subtotal": 35.90, "total": 40.00, "estado": 3, "fechaCreacion": 1716480000000 },
+    { "id": 4, "pedidoId": 4, "clienteId": 12, "subtotal": 890.00, "total": 910.00, "estado": 1, "fechaCreacion": 1716393600000 },
+    { "id": 5, "pedidoId": 5, "clienteId": 3, "subtotal": 55.00, "total": 65.50, "estado": 4, "fechaCreacion": 1716307200000 },
+    { "id": 6, "pedidoId": 6, "clienteId": 15, "subtotal": 210.00, "total": 225.00, "estado": 2, "fechaCreacion": 1716220800000 },
+    { "id": 7, "pedidoId": 7, "clienteId": 27, "subtotal": 1100.50, "total": 1150.00, "estado": 1, "fechaCreacion": 1716134400000 },
+    { "id": 8, "pedidoId": 8, "clienteId": 34, "subtotal": 15.00, "total": 20.00, "estado": 5, "fechaCreacion": 1716048000000 },
+    { "id": 9, "pedidoId": 9, "clienteId": 19, "subtotal": 430.20, "total": 450.00, "estado": 2, "fechaCreacion": 1715961600000 },
+    { "id": 10, "pedidoId": 10, "clienteId": 5, "subtotal": 99.99, "total": 115.00, "estado": 1, "fechaCreacion": 1715875200000 },
+    { "id": 11, "pedidoId": 11, "clienteId": 11, "subtotal": 250.00, "total": 270.00, "estado": 3, "fechaCreacion": 1715788800000 },
+    { "id": 12, "pedidoId": 12, "clienteId": 48, "subtotal": 600.00, "total": 625.50, "estado": 2, "fechaCreacion": 1715702400000 },
+    { "id": 13, "pedidoId": 13, "clienteId": 33, "subtotal": 75.40, "total": 85.00, "estado": 1, "fechaCreacion": 1715616000000 },
+    { "id": 14, "pedidoId": 14, "clienteId": 21, "subtotal": 310.00, "total": 330.00, "estado": 4, "fechaCreacion": 1715529600000 },
+    { "id": 15, "pedidoId": 15, "clienteId": 7, "subtotal": 850.00, "total": 880.00, "estado": 1, "fechaCreacion": 1715443200000 },
+    { "id": 16, "pedidoId": 16, "clienteId": 2, "subtotal": 45.00, "total": 55.00, "estado": 2, "fechaCreacion": 1715356800000 },
+    { "id": 17, "pedidoId": 17, "clienteId": 50, "subtotal": 1200.00, "total": 1250.00, "estado": 3, "fechaCreacion": 1715270400000 },
+    { "id": 18, "pedidoId": 18, "clienteId": 14, "subtotal": 65.90, "total": 75.90, "estado": 1, "fechaCreacion": 1715184000000 },
+    { "id": 19, "pedidoId": 19, "clienteId": 29, "subtotal": 340.00, "total": 360.00, "estado": 5, "fechaCreacion": 1715097600000 },
+    { "id": 20, "pedidoId": 20, "clienteId": 38, "subtotal": 80.00, "total": 95.00, "estado": 2, "fechaCreacion": 1715011200000 },
+    { "id": 21, "pedidoId": 21, "clienteId": 41, "subtotal": 510.50, "total": 530.00, "estado": 1, "fechaCreacion": 1714924800000 },
+    { "id": 22, "pedidoId": 22, "clienteId": 9, "subtotal": 12.50, "total": 18.00, "estado": 3, "fechaCreacion": 1714838400000 },
+    { "id": 23, "pedidoId": 23, "clienteId": 18, "subtotal": 990.00, "total": 1020.00, "estado": 2, "fechaCreacion": 1714752000000 },
+    { "id": 24, "pedidoId": 24, "clienteId": 25, "subtotal": 45.00, "total": 55.50, "estado": 1, "fechaCreacion": 1714665600000 },
+    { "id": 25, "pedidoId": 25, "clienteId": 31, "subtotal": 215.00, "total": 230.00, "estado": 4, "fechaCreacion": 1714579200000 },
+    { "id": 26, "pedidoId": 26, "clienteId": 44, "subtotal": 88.00, "total": 100.00, "estado": 1, "fechaCreacion": 1714492800000 },
+    { "id": 27, "pedidoId": 27, "clienteId": 6, "subtotal": 305.00, "total": 325.00, "estado": 2, "fechaCreacion": 1714406400000 },
+    { "id": 28, "pedidoId": 28, "clienteId": 13, "subtotal": 770.00, "total": 800.00, "estado": 5, "fechaCreacion": 1714320000000 },
+    { "id": 29, "pedidoId": 29, "clienteId": 22, "subtotal": 25.99, "total": 35.00, "estado": 1, "fechaCreacion": 1714233600000 },
+    { "id": 30, "pedidoId": 30, "clienteId": 37, "subtotal": 640.00, "total": 660.50, "estado": 3, "fechaCreacion": 1714147200000 },
+    { "id": 31, "pedidoId": 31, "clienteId": 49, "subtotal": 115.00, "total": 130.00, "estado": 2, "fechaCreacion": 1714060800000 },
+    { "id": 32, "pedidoId": 32, "clienteId": 1, "subtotal": 920.00, "total": 950.00, "estado": 1, "fechaCreacion": 1713974400000 },
+    { "id": 33, "pedidoId": 33, "clienteId": 16, "subtotal": 54.00, "total": 65.00, "estado": 4, "fechaCreacion": 1713888000000 },
+    { "id": 34, "pedidoId": 34, "clienteId": 26, "subtotal": 280.00, "total": 300.00, "estado": 1, "fechaCreacion": 1713801600000 },
+    { "id": 35, "pedidoId": 35, "clienteId": 35, "subtotal": 410.50, "total": 435.00, "estado": 2, "fechaCreacion": 1713715200000 },
+    { "id": 36, "pedidoId": 36, "clienteId": 46, "subtotal": 18.00, "total": 25.00, "estado": 5, "fechaCreacion": 1713628800000 },
+    { "id": 37, "pedidoId": 37, "clienteId": 4, "subtotal": 500.00, "total": 520.00, "estado": 1, "fechaCreacion": 1713542400000 },
+    { "id": 38, "pedidoId": 38, "clienteId": 10, "subtotal": 75.00, "total": 90.00, "estado": 3, "fechaCreacion": 1713456000000 },
+    { "id": 39, "pedidoId": 39, "clienteId": 20, "subtotal": 330.00, "total": 350.00, "estado": 2, "fechaCreacion": 1713369600000 },
+    { "id": 40, "pedidoId": 40, "clienteId": 30, "subtotal": 1050.00, "total": 1080.00, "estado": 1, "fechaCreacion": 1713283200000 },
+    { "id": 41, "pedidoId": 41, "clienteId": 40, "subtotal": 42.50, "total": 55.00, "estado": 4, "fechaCreacion": 1713196800000 },
+    { "id": 42, "pedidoId": 42, "clienteId": 45, "subtotal": 890.00, "total": 915.00, "estado": 1, "fechaCreacion": 1713110400000 },
+    { "id": 43, "pedidoId": 43, "clienteId": 17, "subtotal": 200.00, "total": 220.00, "estado": 2, "fechaCreacion": 1713024000000 },
+    { "id": 44, "pedidoId": 44, "clienteId": 24, "subtotal": 67.00, "total": 80.00, "estado": 5, "fechaCreacion": 1712937600000 },
+    { "id": 45, "pedidoId": 45, "clienteId": 39, "subtotal": 450.00, "total": 470.00, "estado": 1, "fechaCreacion": 1712851200000 },
+    { "id": 46, "pedidoId": 46, "clienteId": 43, "subtotal": 110.00, "total": 125.00, "estado": 3, "fechaCreacion": 1712764800000 },
+    { "id": 47, "pedidoId": 47, "clienteId": 23, "subtotal": 315.00, "total": 335.00, "estado": 2, "fechaCreacion": 1712678400000 },
+    { "id": 48, "pedidoId": 48, "clienteId": 32, "subtotal": 980.00, "total": 1010.00, "estado": 1, "fechaCreacion": 1712592000000 },
+    { "id": 49, "pedidoId": 49, "clienteId": 47, "subtotal": 25.00, "total": 35.00, "estado": 4, "fechaCreacion": 1712505600000 },
+    { "id": 50, "pedidoId": 50, "clienteId": 15, "subtotal": 540.00, "total": 565.00, "estado": 1, "fechaCreacion": 1712419200000 }
+  ]
+}
