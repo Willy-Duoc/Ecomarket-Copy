@@ -91,12 +91,15 @@ public class RegistroUsuarioServiceImpl implements RegistroUsuarioService {
         }
 
         // Si se cambia el rol, actualizar permisos automáticamente
-        if (datosNuevos.getRol() != null &&
-            !datosNuevos.getRol().getNombre().equals(existente.getRol().getNombre())) {
-            existente.setRol(datosNuevos.getRol());
-            List<Permiso> nuevosPermisos = obtenerPermisosPorRol(datosNuevos.getRol().getNombre());
-            existente.getPermisos().clear();
-            existente.getPermisos().addAll(nuevosPermisos);
+        if (datosNuevos.getRol() != null) {
+            boolean rolCambiado = existente.getRol() == null ||
+                !datosNuevos.getRol().getNombre().equals(existente.getRol().getNombre());
+            if (rolCambiado) {
+                existente.setRol(datosNuevos.getRol());
+                List<Permiso> nuevosPermisos = obtenerPermisosPorRol(datosNuevos.getRol().getNombre());
+                existente.getPermisos().clear();
+                existente.getPermisos().addAll(nuevosPermisos);
+            }
         }
 
         if (datosNuevos.getEstadoPerfil() != null) {
